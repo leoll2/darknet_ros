@@ -13,7 +13,7 @@
   <arg name="network_param_file"         default="$(find darknet_ros)/config/yolov2-tiny.yaml"/>
 
   <!-- Zed camera (depth measurement) -->
-  <arg name="zed"                        default="false"/>
+  <arg name="zed"                        default="true"/>
 
   <!-- Load parameters -->
   <rosparam command="load" ns="darknet_ros" file="$(arg ros_param_file)"/>
